@@ -36,4 +36,69 @@
       <property name="Name" value="splash" type="string" />
     </properties>
   </tile>
+  <tile id="19">
+    <properties>
+      <property name="Name" value="smoke" type="string" />
+    </properties>
+  </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="p2" type="string" />
+    </properties>
+  </tile>
+  <tile id="21">
+    <properties>
+      <property name="Name" value="p2_ice" type="string" />
+    </properties>
+  </tile>
+  <tile id="22">
+    <properties>
+      <property name="Name" value="p2_water" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="gore" type="string" />
+    </properties>
+  </tile>
+  <tile id="24">
+    <properties>
+      <property name="Name" value="blood" type="string" />
+    </properties>
+  </tile>
+  <tile id="25">
+    <properties>
+      <property name="Name" value="p3" type="string" />
+    </properties>
+  </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="p3_ice" type="string" />
+    </properties>
+  </tile>
+  <tile id="27">
+    <properties>
+      <property name="Name" value="p3_water" type="string" />
+    </properties>
+  </tile>
+  <tile id="28">
+    <properties>
+      <property name="Name" value="p4" type="string" />
+    </properties>
+  </tile>
+  <tile id="29">
+    <properties>
+      <property name="Name" value="p4_ice" type="string" />
+    </properties>
+  </tile>
+  <tile id="30">
+    <properties>
+      <property name="Name" value="p4_water" type="string" />
+    </properties>
+  </tile>
+  <tile id="31">
+    <properties>
+      <property name="Name" value="dead_bunny" type="string" />
+    </properties>
+  </tile>
 </tileset>

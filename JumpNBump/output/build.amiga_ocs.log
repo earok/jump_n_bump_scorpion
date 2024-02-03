@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 1): 51102
 Music memory (bump_music): 71776
 BP Buffer memory: 125580
-core sfx/gfx memory: 53848
+core sfx/gfx memory: 66868
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -15,22 +15,22 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 2492
 Map background memory: 1396
-EXE memory: 210000
-vm memory: 8480
-project memory: 4036
-memory reserved for active actors on screen (32): 4744
+EXE memory: 209816
+vm memory: 11442
+project memory: 13020
+memory reserved for active actors on screen (64): 9480
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 507106
-Accounted memory other: 240364
-Accounted memory total: 747470
+Accounted memory chip: 520126
+Accounted memory other: 256862
+Accounted memory total: 776988
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 6
-Actor Data Size: 1128
+Actor Count: 19
+Actor Data Size: 3572
 Block Count: 4
 Block Data Size: 272
 Anim5 Count: 0
@@ -39,60 +39,81 @@ Sound Count: 5
 Sound Data Size: 140
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 14
-Animations Data Size: 224
-AnimationFrame Count: 37
-AnimationFrame Data Size: 592
-ImageFrames: 34
-ImageFrame Data Size: 1496
-Sprites: 5
-Sprites Data Size: 70
+Animations Count: 58
+Animations Data Size: 928
+AnimationFrame Count: 146
+AnimationFrame Data Size: 2336
+ImageFrames: 127
+ImageFrame Data Size: 5588
+Sprites: 1
+Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 66
-Misc data size: 14
+Misc data size: 70
 Music file bump_music Original size 71776 Crunched size 53370
 Music file jump_music Original size 50206 Crunched size 38688
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
-Header data for map map1 Original size 7992 Crunched size 330
+Header data for map map1 Original size 7992 Crunched size 328
 Tile data for map map1 (mem restrictions:None) Original size 2492 Crunched size 1256
 Background for map map1 Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 53848 Crunched size 29496
+Asset bundle 0 (Core project asset bundle) Original size 66868 Crunched size 36054
 Asset bundle 1 (map1) Original size 51102 Crunched size 17446
-Project Header Original size 4034 Crunched size 1194
-Project Data Original size 4036 Crunched size 1200
-Project virtual machine (codeblocks) Original size 8480 Crunched size 2562
+Project Header Original size 4034 Crunched size 1200
+Project Data Original size 13020 Crunched size 3146
+Project virtual machine (codeblocks) Original size 11442 Crunched size 3482
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+p1_water_fall_r
+p2_die_r
+p2_water_fall_r
+p3_die_r
+p3_water_fall_r
+p4_die_r
+p4_water_fall_r
 
 === Possibly unused Actors ===
 spring
 
 === Possibly unused sound effects ===
-death
 jump
 
 === Codeblocks by compiled size ===
 load_level: 764
 set_yresolution: 458 (Unused?)
 do_teleport: 424
+fn_spawn_gore: 422
+bunny_handler: 414
+water_handler: 352
+player_collision: 350
+startup: 348
 flipscreen_smooth: 310 (Unused?)
-water_handler: 306
+on_water: 302
 flipxymove: 278 (Unused?)
-on_water: 234
-startup: 196
+fn_spawn_bunny: 266
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pre_startup: 192
 pause: 176
 flipymove: 162 (Unused?)
+on_spring_collide: 160
 snap_to_screen: 158 (Unused?)
+camera_handler: 158
+on_death: 156
 pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
+gore_handler: 138
+fn_controlx: 132
+fn_force_jump: 132
+fn_is_jumping: 132
+on_landed: 132
 load_music: 130
+on_ice: 128
+on_land: 128
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 122
 unload_level: 118
-on_spring_collide: 118
 waitforfireup: 114
 waitforfiredown: 110
 fadein: 106
@@ -101,10 +122,9 @@ load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 fadeout: 88
+test_respawn: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-on_ice: 80
-on_land: 80
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)

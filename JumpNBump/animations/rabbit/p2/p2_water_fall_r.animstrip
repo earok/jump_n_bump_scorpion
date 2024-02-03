@@ -4,30 +4,11 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 5,
+      "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 1,
-      "RenderType": "OnlySprite",
-      "SpriteType": "Attached_16colors",
-      "Path": "rabbit_16_05x00.png",
-      "HandleX": -7,
-      "HandleY": -14,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "rabbit_16_05x00",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 5,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 1,
-      "RenderType": "OnlySprite",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "rabbit_16_06x00.png",
       "HandleX": -7,
@@ -42,26 +23,26 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 5,
+      "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "rabbit_16_07x00.png",
+      "Path": "rabbit_16_05x00.png",
       "HandleX": -7,
       "HandleY": -14,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "rabbit_16_07x00",
+      "Name": "rabbit_16_05x00",
       "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 1,
+  "LoopFrame": 0,
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

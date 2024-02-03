@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "amiga_aga",
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -54,6 +54,31 @@
       "OnPress": "pause",
       "OnRelease": null,
       "buttonState": 8
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Tilde",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "OnPress": "test_respawn",
+      "OnRelease": null,
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -95,10 +120,10 @@
   "LogicSpeed": "PAL_50HZ",
   "StartingPaletteLine": 0,
   "PaletteLines": 2,
-  "ReadCD32Buttons": false,
+  "ReadCD32Buttons": true,
   "ReadMD6Buttons": false,
-  "MDRegion": "Universal",
-  "MDSoundDriver": "XGM",
+  "MDRegion": "Europe",
+  "MDSoundDriver": "NoDriver",
   "SplashScreenFrames": 50,
   "TestLevel": null
 }

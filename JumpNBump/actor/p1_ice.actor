@@ -105,9 +105,9 @@
   ],
   "CollBox": {
     "X": -5,
-    "Y": -10,
+    "Y": -14,
     "Width": 11,
-    "Height": 11
+    "Height": 15
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -138,7 +138,7 @@
   "JumpSound": "jump",
   "DivertAttack": "",
   "DivertSpawn": "",
-  "DivertPlayerCollision": "",
+  "DivertPlayerCollision": "player_collision",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
@@ -147,16 +147,16 @@
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": null,
-  "DivertTimer": null,
+  "DivertPlatformLand": "on_landed",
+  "DivertTimer": "bunny_handler",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0"
+    "p1_die_l",
+    "p1_water_fall_l",
+    "p1_water",
+    "p1_ice",
+    "p1"
   ],
   "ControlPort": 0,
   "DataVersion": 3,
