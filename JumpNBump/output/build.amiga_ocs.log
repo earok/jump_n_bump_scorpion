@@ -5,7 +5,7 @@
 For chip:
 Map gfx (level gfx bundle 1): 51102
 Music memory (bump_music): 71776
-BP Buffer memory: 125580
+BP Buffer memory: 131040
 core sfx/gfx memory: 66868
 Parallax memory: 0
 OS/other estimated: 99328
@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 2492
 Map background memory: 1396
 EXE memory: 209816
-vm memory: 11442
+vm memory: 11752
 project memory: 13020
 memory reserved for active actors on screen (64): 9480
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 520126
-Accounted memory other: 256862
-Accounted memory total: 776988
+Accounted memory chip: 525586
+Accounted memory other: 257172
+Accounted memory total: 782758
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -53,14 +53,15 @@ Misc data size: 70
 Music file bump_music Original size 71776 Crunched size 53370
 Music file jump_music Original size 50206 Crunched size 38688
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
+Panel hud Original size 7268 Crunched size 2538
 Header data for map map1 Original size 7992 Crunched size 328
-Tile data for map map1 (mem restrictions:None) Original size 2492 Crunched size 1256
+Tile data for map map1 (mem restrictions:None) Original size 2492 Crunched size 1246
 Background for map map1 Original size 1396 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 66868 Crunched size 36054
 Asset bundle 1 (map1) Original size 51102 Crunched size 17446
-Project Header Original size 4034 Crunched size 1200
-Project Data Original size 13020 Crunched size 3146
-Project virtual machine (codeblocks) Original size 11442 Crunched size 3482
+Project Header Original size 4034 Crunched size 1196
+Project Data Original size 13020 Crunched size 3144
+Project virtual machine (codeblocks) Original size 11752 Crunched size 3584
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -80,17 +81,18 @@ jump
 
 === Codeblocks by compiled size ===
 load_level: 764
-set_yresolution: 458 (Unused?)
+set_yresolution: 458
 do_teleport: 424
 fn_spawn_gore: 422
 bunny_handler: 414
+startup: 386
+player_collision: 370
 water_handler: 352
-player_collision: 350
-startup: 348
 flipscreen_smooth: 310 (Unused?)
 on_water: 302
 flipxymove: 278 (Unused?)
 fn_spawn_bunny: 266
+fn_awardpoint: 244
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pre_startup: 192
