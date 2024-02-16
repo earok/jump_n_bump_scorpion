@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 2666
 Map background memory: 1396
 EXE memory: 209856
-vm memory: 13736
+vm memory: 14048
 project memory: 16000
 memory reserved for active actors on screen (64): 9480
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 532040
-Accounted memory other: 262350
-Accounted memory total: 794390
+Accounted memory other: 262662
+Accounted memory total: 794702
 
 === Misc ===
 Maps and Asset Bundles Count: 3
@@ -67,7 +67,7 @@ Asset bundle 1 (map1) Original size 51102 Crunched size 17446
 Asset bundle 2 (menu) Original size 41212 Crunched size 23566
 Project Header Original size 4036 Crunched size 1196
 Project Data Original size 16000 Crunched size 3752
-Project virtual machine (codeblocks) Original size 13736 Crunched size 4218
+Project virtual machine (codeblocks) Original size 14048 Crunched size 4318
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -94,9 +94,9 @@ jump
 === Codeblocks by compiled size ===
 fn_awardpoint: 892
 load_level: 764
+startup: 752
 player_collision: 590
 set_yresolution: 458
-startup: 440
 start_level: 426
 do_teleport: 424
 fn_spawn_gore: 422
