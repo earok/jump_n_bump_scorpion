@@ -3,34 +3,34 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 1): 51102
+Map gfx (Panel: score): 55652
 Music memory (bump_music): 71776
-BP Buffer memory: 131040
-core sfx/gfx memory: 66868
+BP Buffer memory: 131520
+core sfx/gfx memory: 68292
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 2492
+Map data memory: 2666
 Map background memory: 1396
-EXE memory: 209816
-vm memory: 11752
-project memory: 13020
+EXE memory: 209856
+vm memory: 13736
+project memory: 16000
 memory reserved for active actors on screen (64): 9480
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 525586
-Accounted memory other: 257172
-Accounted memory total: 782758
+Accounted memory chip: 532040
+Accounted memory other: 262350
+Accounted memory total: 794390
 
 === Misc ===
-Maps and Asset Bundles Count: 2
-Maps and Asset Bundles Data Size: 24
-Actor Count: 19
-Actor Data Size: 3572
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
+Actor Count: 25
+Actor Data Size: 4700
 Block Count: 4
 Block Data Size: 272
 Anim5 Count: 0
@@ -39,29 +39,35 @@ Sound Count: 5
 Sound Data Size: 140
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 58
-Animations Data Size: 928
-AnimationFrame Count: 146
-AnimationFrame Data Size: 2336
-ImageFrames: 127
-ImageFrame Data Size: 5588
+Animations Count: 62
+Animations Data Size: 992
+AnimationFrame Count: 186
+AnimationFrame Data Size: 2976
+ImageFrames: 151
+ImageFrame Data Size: 6644
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 66
-Misc data size: 70
+Misc data size: 126
 Music file bump_music Original size 71776 Crunched size 53370
 Music file jump_music Original size 50206 Crunched size 38688
+Music file score_music Original size 68982 Crunched size 50212
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
 Panel hud Original size 7268 Crunched size 2538
-Header data for map map1 Original size 7992 Crunched size 328
+Panel score Original size 55652 Crunched size 5968
+Header data for map map1 Original size 7992 Crunched size 340
 Tile data for map map1 (mem restrictions:None) Original size 2492 Crunched size 1246
 Background for map map1 Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 66868 Crunched size 36054
+Header data for map menu Original size 7992 Crunched size 346
+Tile data for map menu (mem restrictions:None) Original size 2666 Crunched size 1006
+Background for map menu Original size 1396 Crunched size 80
+Asset bundle 0 (Core project asset bundle) Original size 68292 Crunched size 36550
 Asset bundle 1 (map1) Original size 51102 Crunched size 17446
-Project Header Original size 4034 Crunched size 1196
-Project Data Original size 13020 Crunched size 3144
-Project virtual machine (codeblocks) Original size 11752 Crunched size 3584
+Asset bundle 2 (menu) Original size 41212 Crunched size 23566
+Project Header Original size 4036 Crunched size 1196
+Project Data Original size 16000 Crunched size 3752
+Project virtual machine (codeblocks) Original size 13736 Crunched size 4218
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -74,37 +80,47 @@ p4_die_r
 p4_water_fall_r
 
 === Possibly unused Actors ===
+butterfly_red
+butterfly_yellow
+p1_menu
+p2_menu
+p3_menu
+p4_menu
 spring
 
 === Possibly unused sound effects ===
 jump
 
 === Codeblocks by compiled size ===
+fn_awardpoint: 892
 load_level: 764
+player_collision: 590
 set_yresolution: 458
+startup: 440
+start_level: 426
 do_teleport: 424
 fn_spawn_gore: 422
 bunny_handler: 414
-startup: 386
-player_collision: 370
 water_handler: 352
 flipscreen_smooth: 310 (Unused?)
 on_water: 302
 flipxymove: 278 (Unused?)
 fn_spawn_bunny: 266
-fn_awardpoint: 244
+to_score_screen: 220
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pre_startup: 192
-pause: 176
+butterfly_rotate: 192
+pause: 176 (Unused?)
 flipymove: 162 (Unused?)
 on_spring_collide: 160
-snap_to_screen: 158 (Unused?)
+snap_to_screen: 158
 camera_handler: 158
 on_death: 156
 pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
+fn_check_bunny_active: 140
 gore_handler: 138
 fn_controlx: 132
 fn_force_jump: 132
@@ -120,11 +136,11 @@ waitforfireup: 114
 waitforfiredown: 110
 fadein: 106
 unload_panel: 100
-load_panel_bottom: 96 (Unused?)
+load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 fadeout: 88
-test_respawn: 88
+test_respawn: 88 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music_finish: 76
@@ -143,6 +159,7 @@ destroy_actor: 58
 destroy_block: 52 (Unused?)
 regenerate_screen: 52
 return: 52 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_None_None_None: 50
 autogen_splash_anim_0: 46
 autogen_spring_hit_0: 46
 regenerate_screen_wait: 42

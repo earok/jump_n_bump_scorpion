@@ -101,4 +101,34 @@
       <property name="Name" value="dead_bunny" type="string" />
     </properties>
   </tile>
+  <tile id="32">
+    <properties>
+      <property name="Name" value="p1_menu" type="string" />
+    </properties>
+  </tile>
+  <tile id="33">
+    <properties>
+      <property name="Name" value="p2_menu" type="string" />
+    </properties>
+  </tile>
+  <tile id="34">
+    <properties>
+      <property name="Name" value="p3_menu" type="string" />
+    </properties>
+  </tile>
+  <tile id="35">
+    <properties>
+      <property name="Name" value="p4_menu" type="string" />
+    </properties>
+  </tile>
+  <tile id="36">
+    <properties>
+      <property name="Name" value="butterfly_yellow" type="string" />
+    </properties>
+  </tile>
+  <tile id="37">
+    <properties>
+      <property name="Name" value="butterfly_red" type="string" />
+    </properties>
+  </tile>
 </tileset>
